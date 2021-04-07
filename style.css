@@ -1,0 +1,262 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"]
+{
+    width:100%;
+}
+
+@media only screen and (min-width: 600px) {
+      /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* The animation code */
+@keyframes animation
+{
+    from {color: red;}
+    to {color: yellow;}
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+
+/* Press the button script */
+.press
+{
+    color: rgb(221, 30, 30);
+    margin-left: 20px;
+}
+
+/* Resume picture */
+.resume
+{
+    border-radius: 20px;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume:hover
+{
+    opacity: 0.8;
+    display: block;
+    margin-right: 100px;
+}
+
+/* homepage picture */
+.github
+{
+    border-radius: 20px;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+    color: rgb(221, 30, 30);
+    margin-top: 230px;
+}
+
+
+/* Dropright menu The Overlay (background) */
+ .overlay {
+    /* Height & width depends on how you want to reveal the overlay */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 1.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  } 
+
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 80px;
+    margin: 40px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  /* Text when comes down */
+  .testoDown {
+    /* white-space: nowrap;  */
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    margin: 50px;
+    overflow: hidden;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  /* When hover on the picture in index, the container with the text comes down */
+  .container {
+    position: relative;
+    width: 100%;
+  }
+
+  /* the box that drops down*/
+  .myself {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: #818181; */
+    overflow: hidden;
+    width: 60%;
+    height: 0;
+    transition: 1s ease;
+  }
+  
+  .container:hover .myself {
+    bottom: 0;
+    height: 100%;
+  }
+
+  #button
+  {
+      border-radius: 8px;
+      font-size: 24px;
+      background-color: rgb(22, 180, 22);
+      text-align: center;
+      color: white;
+  }
+
+  /* text in contact */
+.text
+{
+    font-size: 40px;
+    color: rgb(16, 17, 16);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/*text in the form */
+h3
+{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.send-text
+{
+  text-align: right;
+  margin-left: 350px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+#container-social
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+  /*social icons*/
+  .social-icons
+  {
+    text-align: center;
+  }
+
+  .social-icons li
+  {
+    display: block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+
+  .social-icons li a
+  {
+    border-bottom: none;
+  }
+
+  .social-icons li img
+  {
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin-left: 50px;
+    padding-left: 20px;
+    margin-top: 50px;
+  }

@@ -1,63 +1,11 @@
-commit e2eddc344d0dd3464dbbe1b649ef0d5384a4879e
+commit 78231fe98899ae82e78a69e6fb204e92e7c79651
 Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Tue Apr 6 12:37:23 2021 +1000
+Date:   Wed Apr 7 09:29:42 2021 +1000
 
-    Sass practice
+    Initial Commit
 
-commit 9c9195ff9888f90a4e8ba3635ed4aefedcc81ca9
-Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Fri Apr 2 18:14:01 2021 +1100
-
-    Copyright and personal information
-
-commit 8215d3ca968837aa467ccb5a54f26595c1078238
-Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Wed Mar 31 19:38:28 2021 +1100
-
-    WorkBook
-
-commit 1d8470d25c708f0bc87ce8f37351c0dff86cc15c
-Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Wed Mar 31 12:45:57 2021 +1100
-
-    About page
-
-commit 4a2f427cb1c4a5b3df7bd3b5ac3d0abbfc6c88cf
-Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Tue Mar 30 16:59:40 2021 +1100
-
-    Test
-    
-    Exercises
-
-commit d92935e5a5db8a52c47281e24353eead1be1cf48
-Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Mon Mar 29 16:57:46 2021 +1100
-
-    Delete test.html
-
-commit 45c0bc4a6688a3fea2bc7474119c1fed2cb9d680
+commit 4a51f2cb18a88415b366f773ba243dfed9dba26e
 Author: StefanoPruna <stefano.pruna@googlemail.com>
-Date:   Mon Mar 29 10:10:19 2021 +1100
+Date:   Wed Apr 7 09:27:21 2021 +1000
 
-    HTML
-
-commit f1364efbe06f8e9b122dfe67d554795fd9b02ee9
-Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Mon Mar 29 10:06:24 2021 +1100
-
-    Markdown file
-    
-    Practice on markdown file
-
-commit bb81bd11722838581b632309c7240e6f4827c48f
-Author: StefanoPruna <stefano.pruna@googlemail.com>
-Date:   Mon Mar 29 10:05:15 2021 +1100
-
-    test
-
-commit 0d2eee79a500d2fcb8ecb1c634552d2abba118eb
-Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
-Date:   Mon Mar 29 09:44:23 2021 +1100
-
-    Initial commit
+    initial commit

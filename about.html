@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ABOUT ME</title>
+    <h1>ABOUT ME</h1>
+</head>
+<body>
+    <ul>
+        <span class="press" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776;Press here for the menu</span>
+        <script>
+            function openNav() 
+            {
+                document.getElementById("myNav").style.width = "100%";
+            }
+            function closeNav()
+            {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="index.html">Home Page</a>
+                <a href="projects.html">Some of my Projects</a>
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </ul>
+    <div class="container">
+        <img class="resume" src="Images/Resume.jpg">   
+        <div class="myself">
+          <div class="testoDown">
+            Currently studying the Diploma of Information Technology with Coder Academy and expecting to finish it on January 2022.<br>
+            Studied with the University of New England two subjects and the final grades are:<br>
+            Computational Thinking: C 65 <br>
+            Introduction to Programming and the UNIX Environment with Python: HD 89<br>
+            Knowledge in HTML, CSS3, JavaScript, Unity 2D, C#, Python, Linux Mint and Ubuntu in Unix environment.<br>
+            Currently working for Directly as Microsoft Windows expert by assisting Microsoft and Windows users with technical issues via web chat.
+          </div>
+        </div>
+    </div>    
+</body>
+<footer>
+    @copy; 2021 Stefano Pruna
+</footer>
+</html>

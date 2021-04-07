@@ -1,4 +1,41 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>STEFANO PRUNA Portfolio</title>
+    <h1>WELCOME TO STEFANO PRUNA'S WEBSITE</h1>
+</head>
+<body>
+        <ul>
+            <span class="press" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776;Press here for the menu</span>
+            <script>
+                function openNav() 
+                {
+                    document.getElementById("myNav").style.width = "100%";
+                }
+                function closeNav()
+                {
+                    document.getElementById("myNav").style.width = "0%";
+                }
+            </script>
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a href="about.html">About Me and Resume</a>
+                    <a href="projects.html">Some of my Projects</a>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+            </div>
+        </ul>
+        <img class="github" src="Images/GitHub.jpg">
+</body>
+<footer>
+    @copy; 2021 Stefano Pruna
+</footer>
 </html>

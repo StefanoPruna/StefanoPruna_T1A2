@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CONTACT ME</title>
+    <h1>CONTACT ME</h1>
+</head>
+<body>
+    <ul>
+        <span class="press" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776;Press here for the menu</span>
+        <script>
+            function openNav() 
+            {
+                document.getElementById("myNav").style.width = "100%";
+            }
+            function closeNav()
+            {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="about.html">About Me and Resume</a>
+                <a href="projects.html">Some of my Projects</a>
+                <a href="index.html">Home Page</a>
+            </div>
+        </div>
+    </ul>
+        <p class="text">
+            If you want to know more, or you are interested in my work, please feel free to contact me at 0490154666
+            <div id="container-social">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.1892958074345!2d144.95890431531856!3d-37.809034879753256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d34d29671eb%3A0x76a31c1437ccedb8!2s1401%2F80%20A&#39;Beckett%20St%2C%20Melbourne%20VIC%203000!5e0!3m2!1sen!2sau!4v1617776571927!5m2!1sen!2sau" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+                1401/80, A'Beckett street,
+                Melbourne
+                3000
+                VIC
+                </iframe>
+                <h4 class="send-text">Or you can send me an email here
+                   <form action="mailto:stefano.pruna@googlemail.com" method="POST" enctype="text/plain">
+                       <P>
+                           Nome:
+                           <input name="Nome" type="text"> 
+                       </P>
+                       <p>
+                           E-mail:
+                           <input type="text" name="email" id="email">
+                       </p>
+                       <p>
+                           Message:
+                           <textarea name="Message" id="comment" cols="45" rows="5"></textarea>
+                       </p>
+                       <p>
+                           Submit:
+                           <input type="submit" value="Submit">
+                       </p>
+                   </form> 
+                </h4>
+            </div>
+            <ul class="social-icons">
+                <li><a href="https://github.com/StefanoPruna"><img src="Images/githubIcon.jpg" /></a></li>
+                <li><a href="https://www.linkedin.com/in/stefano-pruna-0228b349/"><img src="Images/linkedin.png" /></a></li>
+            </ul>
+        </p>
+</body>
+<footer>
+    @copy; 2021 Stefano Pruna
+</footer>
+</html>

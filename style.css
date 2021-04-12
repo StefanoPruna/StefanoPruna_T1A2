@@ -8,7 +8,7 @@
 /* For mobile phones: */
 [class*="col-"]
 {
-    width:100%;
+    width:80%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -27,7 +27,7 @@
   .col-s-12 {width: 100%;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1000px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -199,7 +199,84 @@ footer
       color: white;
   }
 
-  /* text in contact */
+    /*project area */
+
+  /* text */
+  .projects-text
+  {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(139, 224, 139);
+  }
+
+  #project-pics
+  {
+    border-radius: 20px;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.projects-title
+{
+  font-size: 20px;
+  border: 2px solid rgb(33, 63, 231);
+  border-radius: 15px;
+  width: 20%;
+  background-color: lightgray;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+#container-social
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+  /*social icons*/
+  .social-icons-text
+  {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 40%;
+    background-color: rgb(86, 84, 223);
+  }
+  
+  .social-icons li
+  {
+    display: block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+
+  .social-icons li a
+  {
+    border-bottom: none;
+  }
+
+  .social-icons li img
+  {
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin-left: 50px;
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+  
+   /* text in contact */
 .text
 {
     font-size: 40px;
@@ -225,38 +302,3 @@ h3
   margin-top: 50px;
   font-size: 40px;
 }
-
-#container-social
-{
-  display: flex;
-  flex-direction: row;
-  margin-left: 20px;
-}
-  /*social icons*/
-  .social-icons
-  {
-    text-align: center;
-  }
-
-  .social-icons li
-  {
-    display: block;
-    list-style-type: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-  }
-
-  .social-icons li a
-  {
-    border-bottom: none;
-  }
-
-  .social-icons li img
-  {
-    width: 10%;
-    height: 10%;
-    float: left;
-    margin-left: 50px;
-    padding-left: 20px;
-    margin-top: 50px;
-  }

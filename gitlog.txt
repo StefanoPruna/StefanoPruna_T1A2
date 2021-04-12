@@ -1,0 +1,34 @@
+commit f29e4822b246487085fd8e6a2617f938a265ee40
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Mon Apr 12 16:21:26 2021 +1000
+
+    Add projects page
+
+commit b4a7fae45a02189f907b541f298eb8ea75bf73f2
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Fri Apr 9 16:49:29 2021 +1000
+
+    Updated the gitlog
+
+commit 51a8a9ce981a8d334c9c1c71406eb9e212524d9b
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Wed Apr 7 17:16:36 2021 +1000
+
+    Improved the homepage and contact
+    
+    Added:
+    Style
+    Pictures
+    Effects
+
+commit 78231fe98899ae82e78a69e6fb204e92e7c79651
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Wed Apr 7 09:29:42 2021 +1000
+
+    Initial Commit
+
+commit 4a51f2cb18a88415b366f773ba243dfed9dba26e
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Wed Apr 7 09:27:21 2021 +1000
+
+    initial commit

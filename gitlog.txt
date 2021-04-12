@@ -1,3 +1,15 @@
+commit 9792ed0fcfaead4d2731c3d665c95a68bba8920a
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Apr 12 16:29:29 2021 +1000
+
+    updated style.css
+
+commit 302640a18f493140569f214295c14f2ff37fc801
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Apr 12 16:23:53 2021 +1000
+
+    updated the gitlog file
+
 commit f29e4822b246487085fd8e6a2617f938a265ee40
 Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
 Date:   Mon Apr 12 16:21:26 2021 +1000

@@ -11,7 +11,14 @@
     width:80%;
 }
 
-@media only screen and (min-width: 600px) {
+@media (max-width: 800px){
+  [class*="col-"]{
+    width:80%;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
       /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -64,24 +71,6 @@ h1
 {
     color: rgb(221, 30, 30);
     margin-left: 20px;
-}
-
-/* Resume picture */
-.resume
-{
-    border-radius: 20px;
-    width: 40%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.resume:hover
-{
-    opacity: 0.8;
-    display: block;
-    margin-right: 100px;
 }
 
 /* homepage picture */
@@ -150,6 +139,24 @@ footer
     font-size: 60px;
   }
 
+  /* Resume picture */
+.resume
+{
+    border-radius: 20px;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume:hover
+{
+    opacity: 0.8;
+    display: block;
+    margin-right: 100px;
+}
+
   /* Text when comes down */
   .testoDown {
     /* white-space: nowrap;  */
@@ -157,11 +164,11 @@ footer
     font-size: 30px;
     position: absolute;
     text-align: center;
-    margin: 50px;
     overflow: hidden;
     font-weight: 600;
-    top: 50%;
+    top: 60%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
@@ -175,14 +182,22 @@ footer
   /* the box that drops down*/
   .myself {
     position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    /* background-color: #818181; */
+    bottom: 50%;
+    left: 100px;
+    right: 50%;
+    background-color: lightskyblue;
     overflow: hidden;
-    width: 60%;
+    width: 40%;
     height: 0;
     transition: 1s ease;
+  }
+
+  @media screen and (max-width: 600px) {
+    .myself, .testoDown{
+      overflow: visible;
+      /*position: relative;*/
+      background-color: white;
+    }    
   }
   
   .container:hover .myself {
@@ -301,4 +316,35 @@ h3
   margin-left: 350px;
   margin-top: 50px;
   font-size: 40px;
+}
+
+/* Blog page */
+
+.blog-text
+{
+  font-size: 40px;
+  text-align: center;
+  color: blue;
+}
+.container-blog
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text-blog
+{
+  font-size: 25px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+/* Layout for mobile and small screen sizes */
+@media  (max-width: 800px) {
+  .container-blog{
+    flex-direction: column;
+  }
 }

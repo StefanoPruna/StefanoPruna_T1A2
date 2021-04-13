@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" integrity="r2zygy0FfpKR59GZmdShnJkLjKKyUahkcvvZ/mFZy9A">
+    <title>My Blog</title>
+    <h1>MY BLOG</h1>
+</head>
+<body>
+    <ul>
+        <span class="press" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776;MENU</span>
+        <script>
+            function openNav() 
+            {
+                document.getElementById("myNav").style.width = "100%";
+            }
+            function closeNav()
+            {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="about.html">About Me and Resume</a>
+                <a href="index.html">Home Page</a>
+                <a href="contact.html">Contact Me</a>
+                <a href="project.html">Some of my Projects</a>
+            </div>
+        </div>
+    </ul>
+    <p class="blog-text">"The greatest gift of leadership is a boss who wants you to be successful - Jon Taffer"</p>
+    <div class="container-blog">
+        <div><p class="text-blog">Some actions from my Game project in Unity 2D and C#
+            Getting there!!!</p>
+            <h4>by Stefano, March 2020</h4>
+            <img src="../images/action.jpg" />
+        </div>
+        <div><p class="text-blog">Fantastic course about how to add Practical Particle Systems in Unity, very useful:<br>
+            "Unity 2D Fundamentals - Practical Particle Systems"</p>
+            <h4>by Stefano, April 2020</h4>
+            <img src="../images/unityCourse.jpg" />
+        </div>
+        <div><p class="text-blog">Thanks to my mate Khaled, I've discovered this new technique with Inkscape,<br> use of shadows that makes a deeper effect and improved the quality</p>
+            <h4>by Stefano, July 2020</h4>
+            <img src="../images/effect.jpg" />
+        </div>
+        <div><p class="text-blog">I have started a new C# course with Unity:<br>
+            "Ruby's Adventure: 2D Beginner - Unity Learn"</p>
+            <h4>by Stefano, November 2020</h4>
+            <img src="../images/rubyGame.jpg" />
+        </div>
+        <div><p class="text-blog">Completed this course:
+            The Unity C# Survival Guide<br>
+            An online course administered by StackSkills.</p>
+            <h4>by Stefano, September 2020</h4>
+            <img src="../images/Csharp.png" />
+        </div>
+    </div>
+</body>
+<footer>
+    @copy; 2021 Stefano Pruna
+</footer>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" integrity="r2zygy0FfpKR59GZmdShnJkLjKKyUahkcvvZ/mFZy9A">
+    <title>PROJECTS</title>
+    <h1>SOME OF MY PROJECTS</h1>
+</head>
+<body>
+    <ul>
+        <span class="press" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776;MENU</span>
+        <script>
+            function openNav() 
+            {
+                document.getElementById("myNav").style.width = "100%";
+            }
+            function closeNav()
+            {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="about.html">About Me and Resume</a>
+                <a href="../index.html">Home Page</a>
+                <a href="contact.html">Contact Me</a>
+                <a href="blog.html">My Blog</a>
+            </div>
+        </div>
+    </ul>
+    <p class="projects-text">
+        Some of my project include python and a 2D video games in C# with Unity:
+    </p>
+    <ul class="menu-projects">
+        <p class="projects-text">This is a python program that converts Farheneit to Celcius degrees.
+            It has been made with Python and using the GUI - graphic utiliy interface. User can insert a number that will convert as Celcius degree.
+        </p>
+        <li class="projects-title"><a href="../docs/gui1.py" target="blank">To view the source code, click here</a></li>
+        <img id="project-pics" src="../Images/gui1.png" />
+        <p class="projects-text">This is a 2d platform video game I have created in C# with Unity environment.</p>
+        <li class="projects-title"><a href="../fantasykitties/FantasyKitties.exe" target="blank">The title of the game is: "Fantasy Kitties and Cute, the Evil Dog" - to download the exe file, click here</a></li>
+        <img id="project-pics" src="../Images/fantasykittieshome.png" />
+        <img id="project-pics" src="../Images/fantasykittiesgame.png" />
+        <p class="projects-text">This is a 2d platform video game I have created in C# with Unity environment.</p>         
+    </ul>
+    <ul class="social-icons">
+        <p class="social-icons-text">If you want to see more of my projects and about me, please click on the links below:</p>
+        <li><a href="https://github.com/StefanoPruna"><img src="../Images/githubIcon.jpg" /></a></li>
+        <li><a href="https://www.linkedin.com/in/stefano-pruna-0228b349/"><img src="../Images/linkedin.png" /></a></li>
+    </ul>
+</body>
+<footer>
+    @copy; 2021 Stefano Pruna
+</footer>
+</html>

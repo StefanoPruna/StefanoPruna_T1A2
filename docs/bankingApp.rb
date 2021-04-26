@@ -1,7 +1,7 @@
 def bankingApp
     myBalance = 0
     puts "Welcome to the banking app"
-    puts "Insert the password please:"
+    puts "Insert the password please: (anything will work)"
     myPass = gets.chomp
     while true do
         puts "What would you like to do? (option: balance/deposit/withdraw/finish)"
@@ -22,6 +22,7 @@ def bankingApp
             myBalance -= myWith
             if myBalance <= 0
                 puts "You cannot withdraw this amount"
+                myBalance += myWith
             else
                 puts "Your balance is $" + myBalance.to_s
             end

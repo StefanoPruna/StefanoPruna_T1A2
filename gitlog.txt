@@ -1,3 +1,75 @@
+commit a89bba41b64387ca72febd99e46a32ac078f46c0
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Wed May 5 17:32:30 2021 +1000
+
+    Updated the portfolio site with better images
+
+commit 7121b66ef82a682da6e639afb018b4e8d9b179f0
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Mon Apr 26 16:58:56 2021 +1000
+
+    Added the python program
+
+commit 9eb8fbd6f894859f5ff41cf27f4bd386f8bd55a4
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Apr 26 10:26:53 2021 +1000
+
+    fixed the negative withdraw with the balance
+
+commit f6a9c30ead5175e95a486c6ac20dcd7b7bd87888
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Apr 26 10:07:21 2021 +1000
+
+    added the ruby file
+
+commit 40d6ce93397f1b2041a9d19fa02ac8bdfef7f73d
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Apr 26 10:06:50 2021 +1000
+
+    Added a Ruby project in the projects page
+
+commit 3a0a6dc929d159846bf5a6beae8e19a64c90dd4b
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Mon Apr 26 10:03:29 2021 +1000
+
+    Added a new project in my projects page
+
+commit ce3bb6219cdec90740bbaf6383f6c4ba783c17b1
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Tue Apr 20 10:11:21 2021 +1000
+
+    Fixed links in projects page
+
+commit ceea9833a2e403fdcc4a443f5108bb41b70d69c4
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Tue Apr 20 09:19:11 2021 +1000
+
+    Fixed homepage
+
+commit 9b3978100bdfcac024ec4296be8b143167aee88f
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Tue Apr 13 17:13:38 2021 +1000
+
+    Move index back to the root
+
+commit b19c6997279bef0996d22aa787ce05e6003f1d5e
+Author: StefanoPruna <stefano.pruna@googlemail.com>
+Date:   Tue Apr 13 17:00:30 2021 +1000
+
+    move index back to the root
+
+commit 8cccd603f23e34f4184bca4e8b8f13919193e0e3
+Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
+Date:   Tue Apr 13 16:49:45 2021 +1000
+
+    Finished the portfolio website
+    
+    Finished:
+    Fixed the resume;
+    Blog page;
+    Added the presentation.ppt with Sitemap
+    Readme.md
+
 commit fde2b601748f93541a27f9460c03ce2b571e4f36
 Author: StefanoPruna <48112000+StefanoPruna@users.noreply.github.com>
 Date:   Mon Apr 12 16:48:33 2021 +1000

@@ -70,16 +70,21 @@ h1
 .press
 {
     color: rgb(221, 30, 30);
-    margin-left: 20px;
+    margin-left: 200px;
+    margin-bottom: -160px;
+    position: relative;
+    top: 120px;
+    left: 30px;
 }
 
 /* homepage picture */
 .github
 {
     border-radius: 20px;
-    width: 40%;
+    width: 90%;
     height: auto;
     display: block;
+    margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -143,11 +148,12 @@ footer
 .resume
 {
     border-radius: 20px;
-    width: 40%;
+    width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 110px;
 }
 
 .resume:hover
@@ -221,17 +227,20 @@ footer
   {
     text-align: center;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 500px;
     border: 2px solid red;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: rgb(139, 224, 139);
+    width: 50%;
   }
 
   #project-pics
   {
     border-radius: 20px;
-    width: 40%;
-    height: auto;
+    height: 20%px;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -244,8 +253,10 @@ footer
   border-radius: 15px;
   width: 20%;
   background-color: lightgray;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
   margin-left: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -256,16 +267,24 @@ footer
   margin-left: 20px;
 }
   /*social icons*/
+
+  .social-icons
+  {
+    margin-bottom: 250px;
+    margin-top: -180px;
+    margin-left: 250px;
+  }
+
   .social-icons-text
   {
     font-size: 30px;
     text-align: left;
     margin-top: 100px;
     margin-left: 20px;
-    border: 2px solid red;
+    /*border: 2px solid red;
     border-radius: 15px;
     width: 40%;
-    background-color: rgb(86, 84, 223);
+    background-color: rgb(86, 84, 223);*/
   }
   
   .social-icons li
@@ -296,7 +315,7 @@ footer
 {
     font-size: 40px;
     color: rgb(16, 17, 16);
-    margin-top: 30px;
+    margin-top: 120px;
     margin-bottom: 30px;
     margin-left: 20px;
     text-align: center;
@@ -316,6 +335,32 @@ h3
   margin-left: 350px;
   margin-top: 50px;
   font-size: 40px;
+}
+
+/*Contact image with text*/
+.contact-me
+{
+  position: relative;
+  text-align: center;
+  color: blue;
+  margin-top: 20px;
+}
+
+/*Contact text*/
+.linkedln
+{
+  position: absolute;
+  top: 22%;
+  right: 40%;
+  font-size: 100px;
+}
+
+.git
+{
+  position: absolute;
+  top: 38%;
+  right: 42%;
+  font-size: 100px;
 }
 
 /* Blog page */
